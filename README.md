@@ -1,71 +1,102 @@
-# Getting Started with Create React App
+📦 Personal Portfolio & Courier Tracking Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with Create React App and showcases a personal portfolio along with a mini Courier Tracking App.
 
-## Available Scripts
+🚀 Getting Started
 
 In the project directory, you can run:
 
-### `npm start`
+npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app in development mode.
+Open http://localhost:3000
+ to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload when you make changes. You may also see lint errors in the console.
 
-### `npm test`
+npm test
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.
 
-### `npm run build`
+npm run build
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the build folder.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🖥️ Website Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Portfolio Section
 
-### `npm run eject`
+About Me (BCA student introduction, skills, and interests).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Skills badges (React, Java, Python, HTML, CSS, SQL, etc.).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Blog Section with learning journey posts.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Courier Tracking App
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+User can enter a Tracking ID to check the package status.
 
-## Learn More
+Includes subpages:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Home (tracking system)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+About Us (company mission, services)
 
-### Code Splitting
+Services (list of courier features)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Join Now (form with Name, Email, Contact Number, Submit).
 
-### Analyzing the Bundle Size
+Navigation (React Router DOM)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Navbar allows moving between pages (Home, Portfolio, Blog, Contact, Courier App).
 
-### Making a Progressive Web App
+Courier subpages (/courier/about, /courier/services, /courier/join).
+🛠️ React Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Functional Components (Profile, Portfolio, Courier, About, Services, etc.)
 
-### Advanced Configuration
+React Router DOM for multiple page navigation.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+React Hooks (useState) for form handling and tracking ID logic.
 
-### Deployment
+Conditional Rendering (status messages for tracking).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+CSS Modules for custom component styling.
 
-### `npm run build` fails to minify
+🎨 Design Decisions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# personal-website1
+Color Scheme: Teal (#008080) chosen for a professional and modern look.
+
+Layout:
+
+Portfolio sections are center aligned for readability.
+
+Courier subpages use card-like sections for clear separation.
+
+Consistency: All pages share the same navbar and theme.
+
+Responsive: Pages styled with CSS flexbox to work across devices.
+
+Home Page
+
+Portfolio Page
+
+Courier Tracking Home
+
+About Us Page
+
+Services Page
+
+Join Now Form
+
+🌟 Future Improvements
+
+Connect courier tracking with a real API.
+
+Add a database for storing user form submissions (Name, Email, Contact).
+
+Implement dark mode.
+
+Deploy on Netlify / Vercel for live access.
+
+✨ This project demonstrates React fundamentals, routing, and component-based design, along with integrating a real-world idea (Courier Tracking).
